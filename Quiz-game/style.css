@@ -75,5 +75,15 @@ body{
     padding: 1rem;
     cursor: pointer;
     text-align: left;
+    transition: all 0.3s ease;
 }
 
+.answer-btn:hover{
+    background-color: #eadbc8;
+    border-color: #dac0ae;
+}
+
+.answer-btn.correct{
+    background-color: #e6fff0;
+    
+}
